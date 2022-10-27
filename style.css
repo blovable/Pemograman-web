@@ -1,0 +1,26 @@
+
+div {
+  background-color: lightgrey;
+  width: 50%;
+  border: 15px solid darkblue;
+  padding: 50px;
+  margin: 20px;
+}
+
+img{
+  width: 35%;
+  height: auto;
+}
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: lightgray;
+  border: 2px solid darkblue;
+}
+
+
+
