@@ -1,0 +1,24 @@
+body {
+	height: 100vh;
+	background: linear-gradient(135deg, #f9c9ff, #d0ffd9);
+}
+.cell{
+    background-color: rgb(244, 255, 185);
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
